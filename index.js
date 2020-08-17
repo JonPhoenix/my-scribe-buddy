@@ -80,9 +80,15 @@ function writeToFile(fileName, data) {
 };
 
 // Function to initialize program
-function init() {
-
-}
+async function init() {
+    try {
+        const userAnswers = await userQuestions();
+        genMarkdown(userAnswers);
+        writeToFile('Test-README.md', genMarkdown(userAnswers));
+    } catch (err) {
+        console.log(err);
+    }
+};
 
 // Function call to initialize program
 init();
