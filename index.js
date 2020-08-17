@@ -48,7 +48,7 @@ inquirer.prompt([
     {
         type : 'input',
         message : 'Command to run a test?',
-        name : 'test',
+        name : 'tests',
     },
     {
         type : 'input',
