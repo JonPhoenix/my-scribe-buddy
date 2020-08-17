@@ -52,7 +52,7 @@ inquirer.prompt([
     },
     {
         type : 'input',
-        message : 'GitHub username?',
+        message : 'Your GitHub username?',
         name : 'username',
     },
     {
@@ -62,7 +62,7 @@ inquirer.prompt([
     },
     {
         type : 'input',
-        message : 'Email address for additional questions?',
+        message : 'Your email address?',
         name : 'email',
     }
 ]);
