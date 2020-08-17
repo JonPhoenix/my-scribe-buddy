@@ -1,5 +1,6 @@
 // Function to generate markdown for README
 function generateMarkdown(data) {
+  // const declaration for GitHub badge and user's profile pic
   const gitHubBadge = `https://img.shields.io/badge/Github-${data.username}-4cbbb9`;
   const profilePic = `https://github.com/${data.username}.png?size=120`;
   
@@ -39,4 +40,5 @@ function generateMarkdown(data) {
 `;
 };
 
+// Using module.exports object to index.js
 module.exports = generateMarkdown;

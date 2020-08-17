@@ -27,11 +27,11 @@
 
   The user will be prompted for information about their application repository, **My Scribe Buddy** will then generate a README file with the project's Title, and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.
 
-  The following **walk-through video** demonstrates the app functionality:
+  The following **walk-through demo** shows the app functionality:
 
   ![my-scribe-buddy-demo](assets/my-scribe-buddy-demo.gif)
 
-  When the application finished, the command-line process will look similar to this preview:
+  When the application finished, the command-line interface (CLI) will look similar to this preview:
 
   ![my-scribe-buddy-1](assets/my-scribe-buddy-1.png)
 
