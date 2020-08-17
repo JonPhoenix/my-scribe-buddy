@@ -29,7 +29,9 @@
 
   The following **walk-through video** demonstrates the app functionality:
 
-  [**My Scribe Duddy Demo**](assets/my-scribe-buddy-demo.mp4)
+  ![my-scribe-buddy-demo](assets/my-scribe-buddy-demo.gif)
+
+  When the application finished, the command-line process will look similar to this preview:
 
   ![my-scribe-buddy-1](assets/my-scribe-buddy-1.png)
 
@@ -55,3 +57,19 @@
  Deployed application: https://github.com/JonPhoenix/My-Scribe-Buddy
   
  For further questions, please contact the author at: jonphx@uw.edu
+
+  ## References
+  ```
+  * openweathermap.org
+  * w3schools.com
+  * developer.mozilla.org
+
+  * nodejs.org
+  * node.readthedocs.io
+  * npmjs.com
+
+  * freecodecamp.org
+  * choosealicense.com
+  * screencastify.com
+
+```
