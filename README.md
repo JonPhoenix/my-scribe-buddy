@@ -1,7 +1,7 @@
-# README Generator: My Scribe  Buddy
+# README Generator: My Scribe Buddy
 
   ## Description
-    My Scribe Buddy is a command-line application that dynamically generates a professional README.md from the user's input. This application provides a high-quality README document with important information about the application in the repository in a quick and efficient way.
+  **My Scribe Buddy** is a command-line application that dynamically generates a professional README.md from the user's input. This application provides a high-quality README document with important information about the application in the repository in a quick and efficient way.
   
   ## Table of Contents
   - [Installation](#installation)
