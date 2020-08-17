@@ -15,7 +15,7 @@
   To run this application you will need to install: The provided **package.json** containing the required dependencies.
 
   ## Usage
-  How this application can be used: Input **node** **index.js** in the command-line.
+  How this application can be used: Input **node** **index.js** in the command-line to create a README.md file for your project repository.
 
   ## License
     MIT
