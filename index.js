@@ -30,7 +30,11 @@ const questions = [
         message : 'What license fits this project?',
         name : 'license',
         choices : [
+            'Apache 2.0',
             'MIT',
+            'GPL v3',
+            'ISC',
+            'BSD 3',
             'None'
         ],
     },
