@@ -1,16 +1,21 @@
-// array of questions for user
+// ES6+ Const declaration block
+const fs = require("fs");
+const inquirer = require("inquirer");
+const genMarkdown = require("./utils/generateMarkdown");
+
+// Array of Questions for User
 const questions = [
 
 ];
 
-// function to write README file
+// Function to write README file
 function writeToFile(fileName, data) {
 }
 
-// function to initialize program
+// Function to initialize program
 function init() {
 
 }
 
-// function call to initialize program
+// Function call to initialize program
 init();
