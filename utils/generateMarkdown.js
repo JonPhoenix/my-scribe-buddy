@@ -29,6 +29,8 @@ function generateMarkdown(data) {
   Use this command to run a test: ${data.tests}
 
   # Questions
+  \n Deployed application: ${data.deployment}
+  \n For further questions, please contact the author at: ${data.email}
 `;
 }
 
