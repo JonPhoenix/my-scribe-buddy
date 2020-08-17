@@ -48,6 +48,21 @@ const questions = [
         message : 'Command to run a test?',
         name : 'test',
     },
+    {
+        type : 'input',
+        message : 'GitHub username?',
+        name : 'username',
+    },
+    {
+        type : 'input',
+        message : 'Project URL in GitHub?',
+        name : 'deployment',
+    },
+    {
+        type : 'input',
+        message : 'Email address for additional questions?',
+        name : 'email',
+    }
 ];
 
 // Function to write README file
