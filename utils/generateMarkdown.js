@@ -1,7 +1,7 @@
 // Function to generate markdown for README
 function generateMarkdown(data) {
   const gitHubBadge = `https://img.shields.io/badge/Github-${data.username}-4cbbb9`;
-  const profilePic = `https://github.com/${data.username}.png?size=100`;
+  const profilePic = `https://github.com/${data.username}.png?size=120`;
   
   return `# ${data.title}
 

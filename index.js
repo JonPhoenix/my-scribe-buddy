@@ -84,7 +84,7 @@ async function init() {
     try {
         const userAnswers = await userQuestions();
         genMarkdown(userAnswers);
-        writeToFile('Test-README.md', genMarkdown(userAnswers));
+        writeToFile('Sample-README.md', genMarkdown(userAnswers));
     } catch (err) {
         console.log(err);
     }
