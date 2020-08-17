@@ -24,7 +24,7 @@ inquirer.prompt([
     },
     {
         type : 'input',
-        message : 'How this project can be used?',
+        message : 'How this application can be used?',
         name : 'usage',
     },
     {
