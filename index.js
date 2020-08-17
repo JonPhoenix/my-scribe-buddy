@@ -79,7 +79,7 @@ function writeToFile(fileName, data) {
     });
 };
 
-// Function to initialize program
+// Async function to initialize program
 async function init() {
     try {
         const userAnswers = await userQuestions();

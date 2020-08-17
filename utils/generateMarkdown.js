@@ -1,5 +1,8 @@
 // Function to generate markdown for README
 function generateMarkdown(data) {
+  const gitHubBadge = `https://img.shields.io/badge/Github-${data.username}-4cbbb9`;
+  const profilePic = `https://github.com/${data.username}.png?size=100`;
+  
   return `# ${data.title}
 
   ## Description
@@ -13,25 +16,27 @@ function generateMarkdown(data) {
   - [Tests](#tests)
   - [Questions](#questions)
 
-  # Installation
+  ## Installation
   To run this application you will need to install: ${data.installation}
 
-  # Usage
+  ## Usage
   How this application can be used: ${data.usage}
 
-  # License
+  ## License
     ${data.license}
 
-  # Contributing
+  ## Contributing
     ${data.contributing}
 
-  # Tests
+  ## Tests
   Use this command to run a test: ${data.tests}
 
-  # Questions
+  ## Questions
+  \n ![GitHub Badge](${gitHubBadge})
+  \n ![Profile Pic](${profilePic})
   \n Deployed application: ${data.deployment}
   \n For further questions, please contact the author at: ${data.email}
 `;
-}
+};
 
 module.exports = generateMarkdown;

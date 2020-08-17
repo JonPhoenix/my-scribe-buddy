@@ -1,7 +1,7 @@
-# Project Test
+# Super Test
 
   ## Description
-    This is a test to generate a README file
+    This the second test to generate a ReadMe file
   
   ## Table of Contents
   - [Installation](#installation)
@@ -11,23 +11,27 @@
   - [Tests](#tests)
   - [Questions](#questions)
 
-  # Installation
-  To run this application you will need to install: package.json and dependency to inquirer
+  ## Installation
+  To run this application you will need to install: npm install package.json and dependency on Inquirer
 
-  # Usage
-  How this application can be used: 
+  ## Usage
+  How this application can be used: To generate a professional ReadMe file
 
-  # License
-    MIT
+  ## License
+    GPL v3
 
-  # Contributing
+  ## Contributing
     Jon Phoenix
 
-  # Tests
+  ## Tests
   Use this command to run a test: npm test
 
-  # Questions
+  ## Questions
   
- Deployed application: https://jonphoenix.github.io/My-Scribe-Buddy/
+ ![GitHub Badge](https://img.shields.io/badge/Github-JonPhoenix-4cbbb9)
   
- For further questions, please contact the author at: jonphx@uw.edu
+ ![Profile Pic](https://github.com/JonPhoenix.png?size=50)
+  
+ Deployed application: none
+  
+ For further questions, please contact the author at: none
