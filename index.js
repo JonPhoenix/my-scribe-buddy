@@ -4,7 +4,7 @@ const inquirer = require('inquirer');
 const genMarkdown = require('./utils/generateMarkdown');
 
 // Function for User Questions and Array of Objects
-function userQuestions() {
+const userQuestions = () => {
 
     return inquirer.prompt([
         {
@@ -69,8 +69,8 @@ function userQuestions() {
 };
 
 // Function to write README file
-function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, 'utf8', function(err) {
+const writeToFile = (fileName, data) => {
+    fs.writeFile(fileName, data, 'utf8', (err) => {
         
         if (err) {
             return console.log(err);

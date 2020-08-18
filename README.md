@@ -3,7 +3,7 @@
   ## Description
   **My Scribe Buddy** is a command-line application that dynamically generates a professional **README** file from the user's input. This application provides a high-quality README document with important information about the application in the repository in a quick and efficient way.
 
-  **My Scribe Buddy** has been created with **JavaScript** and **Node.js** using the [**Inquirer** package](https://www.npmjs.com/package/inquirer).
+  **My Scribe Buddy** has been created with **JavaScript**, **Node.js** and **ES6+**, using the standard library package **fs (file system)**, and installing the [**Inquirer** package](https://www.npmjs.com/package/inquirer) as a dependency.
 
   Step-by-step instructions, demos and all the information needed to use this app can be found in the **Table of Contents** here below. This command-line application will run in Terminal (Mac), Git Bash (Windows), and VSCode (Mac & Windows). The final **README** file will look similar to this example:
 
