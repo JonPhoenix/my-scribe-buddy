@@ -25,7 +25,7 @@
     Jon Phoenix
 
   ## Tests
-  Use this command to run a test: **npm** **run** **test** in the Command-Line Interface.
+  Use this command to run a test: **npm** **run** **test** in the CLI
 
   ## Questions
   

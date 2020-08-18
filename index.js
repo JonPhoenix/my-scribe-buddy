@@ -32,11 +32,11 @@ const userQuestions = () => {
             message : 'What license fits this project?',
             name : 'license',
             choices : [
-                'Apache 2.0',
+                'Apache2.0',
                 'MIT',
-                'GPL v3',
+                'GPLv3',
                 'ISC',
-                'BSD 3',
+                'BSD3',
                 'None'
             ],
         },

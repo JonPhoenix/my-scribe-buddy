@@ -1,3 +1,4 @@
+![License Badge](https://img.shields.io/badge/License-MIT-0298c3)
 # README Generator: My Scribe Buddy
 
   ## Description
@@ -46,11 +47,11 @@
     Jon Phoenix
 
   ## Tests
-  Use this command to run a test: **npm** **run** **test** in the command-line.
+  Use this command to run a test: **npm** **run** **test** in the Command-Line Interface.
 
   ## Questions
   
- ![GitHub Badge](https://img.shields.io/badge/Github-JonPhoenix-4cbbb9)
+ ![GitHub Badge](https://img.shields.io/badge/Github-JonPhoenix-0298c3)
   
  ![Profile Pic](https://github.com/JonPhoenix.png?size=120)
   
@@ -69,6 +70,7 @@
   * npmjs.com
 
   * freecodecamp.org
+  * shields.io
   * choosealicense.com
   * screencastify.com
 

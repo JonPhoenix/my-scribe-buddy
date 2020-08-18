@@ -1,10 +1,12 @@
 // Function to generate markdown for README
 function generateMarkdown(data) {
-  // const declaration for GitHub badge and user's profile pic
-  const gitHubBadge = `https://img.shields.io/badge/Github-${data.username}-4cbbb9`;
+  // const declaration for License badge, GitHub badge, and user's profile pic
+  const licenseBadge = `https://img.shields.io/badge/License-${data.license}-0298c3`;
+  const gitHubBadge = `https://img.shields.io/badge/Github-${data.username}-0298c3`;
   const profilePic = `https://github.com/${data.username}.png?size=120`;
   
-  return `# ${data.title}
+  return `![License Badge](${licenseBadge})
+  # ${data.title}
 
   ## Description
   ${data.description}
@@ -37,7 +39,7 @@ function generateMarkdown(data) {
   \n ![Profile Pic](${profilePic})
   \n Deployed application: ${data.deployment}
   \n For further questions, please contact the author at: ${data.email}
-`;
+  `;
 };
 
 // Using module.exports object to index.js
