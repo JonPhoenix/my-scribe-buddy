@@ -73,7 +73,7 @@ const writeToFile = (fileName, data) => {
     fs.writeFile(fileName, data, 'utf8', (err) => {
         
         if (err) {
-            return console.log(err);
+            throw err;
         }
         console.log('Success! Your README.md file is ready!');
     });
