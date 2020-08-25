@@ -61,17 +61,16 @@
 
   ## References
   ```
-  * openweathermap.org
   * w3schools.com
   * developer.mozilla.org
+  * freecodecamp.org
 
   * nodejs.org
   * node.readthedocs.io
   * npmjs.com
 
-  * freecodecamp.org
   * shields.io
   * choosealicense.com
   * screencastify.com
 
-```
+  ```
