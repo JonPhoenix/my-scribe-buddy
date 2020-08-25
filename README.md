@@ -55,7 +55,7 @@
   
  ![Profile Pic](https://github.com/JonPhoenix.png?size=120)
   
- Deployed application: https://github.com/JonPhoenix/My-Scribe-Buddy
+ Deployed application: https://github.com/JonPhoenix/my-scribe-buddy
   
  For further questions, please contact the author at: jonphx@uw.edu
 
@@ -73,4 +73,4 @@
   * choosealicense.com
   * screencastify.com
 
-  ```
+```
